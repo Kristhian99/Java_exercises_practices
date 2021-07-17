@@ -1,0 +1,11 @@
+
+import javax.swing.JOptionPane;
+
+public class App{
+    public static void main(String[] args) throws Exception{
+    String s=JOptionPane.showInputDialog( "Cual es tu nombre?");
+    System.out.println("Bienvenido "+s);        
+        
+        
+}
+}

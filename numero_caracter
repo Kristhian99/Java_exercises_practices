@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class App{
+    public static void main(String[] args) throws Exception{
+        char a;
+        Scanner s=new Scanner(System.in);
+        System.out.println("introduzca un caracter por teclado");
+        a=s.nextLine().charAt(0);
+        int b=(int)a;
+        System.out.println(b);
+        s.close();
+        
+}
+}

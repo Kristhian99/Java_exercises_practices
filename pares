@@ -1,0 +1,30 @@
+public class App{
+    public static void main(String[] args) throws Exception{
+        int a=1;
+        int b=15;
+        int c=0;
+        for(int i=1;i<=15;i++){
+            if (i%2==0){
+                System.out.println(i);
+                c+=i;
+            }
+        }   
+        System.out.println("La suma de los numeros pares entre "+
+        a+" y "+b+" es: "+c);
+        int suma=suma(a,b);
+        System.out.println("La suma de los numeros pares entre "+
+        a+" y "+b+" es: "+suma);
+      }
+
+      public static int suma(int a, int b){
+        int c=0;  
+        for(int i=a;i<=b;i++){
+            if (i%2==0){
+                c=c+i;
+           }
+
+          }
+          return c;
+      }
+    
+}

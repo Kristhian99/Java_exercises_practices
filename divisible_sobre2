@@ -1,0 +1,20 @@
+
+import java.util.Scanner;
+
+public class App{
+    public static void main(String[] args) throws Exception{
+        int a;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Introduzca un numero por teclado");
+        a=sc.nextInt();
+
+        if (a%2==0){
+            System.out.println("El numero es divisible entre dos (Es par)");
+        } else{
+            System.out.println("El numero no es par");
+        }
+        sc.close();
+        
+        
+}
+}

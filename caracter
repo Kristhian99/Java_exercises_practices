@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class App{
+    public static void main(String[] args) throws Exception{
+        int a;
+        Scanner s=new Scanner(System.in);
+        System.out.println("introduzca un numero por teclado");
+        a=s.nextInt();
+        char b=(char)a;
+        System.out.println(b);
+        s.close();
+        
+        
+        
+}
+}

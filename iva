@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class App{
+    public static void main(String[] args) throws Exception{
+        final int  iva=21;
+        int c;
+        Scanner s=new Scanner(System.in);
+        System.out.println("introduzca el precio por teclado");
+        c=s.nextInt();
+        int precio=(c*iva/100)+c;
+        System.out.println("El precio del producto es "+precio);
+        s.close();
+        
+}
+}

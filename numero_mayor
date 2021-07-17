@@ -1,0 +1,14 @@
+public class App{
+    public static void main(String[] args) throws Exception{
+        int a=6;
+        int b=6;
+        
+        if (a>b){
+            System.out.println("El numero a es mayor a b");
+        }
+        else if (a==b){System.out.println("b es igual a");}
+        else{System.out.println("b es mayor al numero a");}
+        
+    
+}
+}

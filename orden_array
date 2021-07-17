@@ -1,0 +1,26 @@
+public class App{
+    public static void main(String[] args) throws Exception{
+    int[] ar= {25,85,78,96,36,7,8,4,45,32};
+    int [] orden= new int [10];
+    int len=ar.length;
+    for(int i=0;i<len;i++){
+        int s=0;
+        int a=ar[i];
+        for (int j=0;j<len;j++){
+            if (a>orden[j] ){
+                s=orden[j];
+                orden[j]=a;
+                a=s;
+                
+            }
+           
+            
+        }
+
+    }
+    for (int i=0;i<len;i++){
+        System.out.println(orden[i]);
+    }
+    
+}
+}
