@@ -11,11 +11,26 @@ The project is divided into two parts, the Back-End with the database and the Ap
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+The tools that you need to install this app:
+--Node js  with expo-cli (to start the application)
+--Docker (To run the database into a container )
+--Java jdk 16+ (To run the back end)
+
+## Node Js
+To install NodeJs -> https://nodejs.org/es/
+
+After installing Node Js, from the command prompt execute this command to install expo cli 
 
 ```
-Da un ejemplo
+npm install -g expo-cli
 ```
+## Java
+--To install java you can go to this page https://www.oracle.com/java/technologies/downloads/#jdk17-linux 
+The only requirement is to use a version 16+ of the jdk, even if the project doesn't use the new functionalities to avoid problems with the execution of the program that is the best option 
+
+## Docker 
+-To install docker you can go to this page https://www.docker.com/get-started
+
 
 ### Instalación 🔧
 
